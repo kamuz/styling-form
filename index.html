@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#" id="signup">
+        <h2>Sign up</h2>
+        <h3>Our content, delivered on your terms.</h3>
+        <h4>Categories of interest</h4>
+        <input type="checkbox" name="design" id="cat-d"><label for="cat-d">Design</label>
+        <input type="checkbox" name="html-css" id="cat-h"><label for="cat-d">HTML & CSS</label>
+        <input type="checkbox" name="js" id="cat-j"><label for="cat-d">JavaScript</label>
+        <br>
+        <fieldset>
+            <legend>Delivery Options</legend>
+            <h4>Choose a format</h4>
+            <input type="radio" name="format" id="format-t"><label for="format-t">Text Only</label>
+            <input type="radio" name="format" id="format-h"><label for="format-h">HTML (with images)</label>
+            <h4>Choose a frequency</h4>
+            <select name="frequency" id="frequency">
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+            </select>
+            <br>
+            <h4>Comments</h4>
+            <textarea name="requests" id="requests" cols="30" rows="3" placeholder="Please let us know what other options you'd like to have."></textarea>
+        </fieldset>
+        <h4>Email</h4>
+        <input type="text" name="email" id="email" size="45" placeholder="Enter your email address">
+        <br>
+        <input type="submit" value="Sign me up">
+    </form>
+</body>
+</html>
